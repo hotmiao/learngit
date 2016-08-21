@@ -25,7 +25,8 @@ class Blog extends CI_Controller {
         );
         $data['todo_list'] = array('Clean House', 'Call Mom', 'Run Errands');
 //        $this->load->view('blogview', $data);
-        $this->load->view('blogview', '', true);
+        $data_str = json_decode($data);
+        $this->load->view('blogview', $data_str, true);
 	}
 
     public function blogs($params1, $params2) {
