@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>My Blog</title>
+    <title><?php echo $title;?></title>
 </head>
 <body>
 <h1>Welcome to my Blog!</h1>

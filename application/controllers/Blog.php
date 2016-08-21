@@ -20,9 +20,10 @@ class Blog extends CI_Controller {
 	 */
 	public function index()
 	{
-//		$this->load->view('welcome_message');
-        $this->load->view('blogview');
-//        echo 'Blog';
+        $data = array(
+            'title' => 'My Title'
+        );
+        $this->load->view('blogview', $data);
 	}
 
     public function blogs($params1, $params2) {
