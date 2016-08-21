@@ -29,9 +29,8 @@ class Blog extends CI_Controller {
         echo $string_data;
 	}
 
-    public function blogs($params1, $params2) {
-        echo $params1;
-        echo '<br />';
-        echo $params2;
+    public function blog_list($params1, $params2) {
+        $this->load->model("blog", '', TRUE);
+        $this->blog->get_last_ten_entries();
     }
 }
