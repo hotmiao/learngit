@@ -31,6 +31,7 @@ class Blog extends CI_Controller {
 
     public function blog_list($params1, $params2) {
         $this->load->model("blog_model", '', TRUE);
+        $data['title'] = 'My Blog';
         $data['query'] = $this->blog_model->get_last_ten_entries();
 //        echo '<pre>';
 //        print_r($data);
