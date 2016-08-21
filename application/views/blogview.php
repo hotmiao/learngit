@@ -5,7 +5,7 @@
 <body>
 <h1>Welcome to my Blog!</h1>
 <ul>
-    <?php foreach($todo_list as $list):?>
+    <?php foreach($query as $list):?>
         <li><?php echo $list;?></li>
     <?php endforeach;?>
 </ul>
