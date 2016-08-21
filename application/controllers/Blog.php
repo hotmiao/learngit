@@ -23,4 +23,10 @@ class Blog extends CI_Controller {
 //		$this->load->view('welcome_message');
         echo 'Blog';
 	}
+
+    public function blogs($params1, $params2) {
+        echo $params1;
+        echo '<br />';
+        echo $params2;
+    }
 }
