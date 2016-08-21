@@ -19,7 +19,7 @@ class Blog_model extends CI_Model {
 
     public function get_last_ten_entries()
     {
-        $query = $this->db->get('title', 10);
+        $query = $this->db->get('blog', 10);
         return $query->result();
     }
 
