@@ -30,7 +30,7 @@ class Blog extends CI_Controller {
 	}
 
     public function blog_list($params1, $params2) {
-        $this->load->model("blog", '', TRUE);
+        $this->load->model("blog_model", '', TRUE);
         $this->blog->get_last_ten_entries();
     }
 }
