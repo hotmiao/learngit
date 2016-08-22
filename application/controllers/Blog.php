@@ -20,13 +20,12 @@ class Blog extends CI_Controller {
 	 */
 	public function index()
 	{
-        $data = array(
-            'title' => 'My Title'
-        );
-        $data['todo_list'] = array('Clean House', 'Call Mom', 'Run Errands');
+//        $data = array(
+//            'title' => 'My Title'
+//        );
+//        $data['todo_list'] = array('Clean House', 'Call Mom', 'Run Errands');
 //        $this->load->view('blogview', $data);
-        $string_data = $this->load->view('blogview', $data, true);
-        echo $string_data;
+        $this->load->view('blogview');
 	}
 
     public function blog_list($params1, $params2) {
