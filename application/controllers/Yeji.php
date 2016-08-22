@@ -16,7 +16,7 @@ class Yeji extends CI_Controller {
 
     public function yeji()
     {
-        $price = $_POST['price'];
-        print_r($price);
+//        $price = $_POST['price'];
+//        print_r($price);
     }
 }
