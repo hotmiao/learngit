@@ -3,5 +3,5 @@
  */
 var yeji = angular.module('Yeji', []);
 yeji.controller('yejiadd', function($scope){
-
+    $scope.price = 0;
 });
