@@ -1,6 +1,6 @@
 <html ng-app="Yeji">
 <head>
-    <title><?php echo $title;?></title>
+    <title>业绩</title>
     <script src="//cdn.bootcss.com/angular.js/1.5.8/angular.min.js"></script>
 </head>
 <body>
