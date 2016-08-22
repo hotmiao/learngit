@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1>Welcome to my Blog!</h1>
-<form method="post" action="/Yeji/yeji">
+<form method="post" action="#">
     成交价：<input type="text" name="price" value="" />
     提交：<input type="submit" value="提交"/>
 </form>
